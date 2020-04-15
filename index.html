@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Newsweek clone</title>
   </head>
   <body>
@@ -49,7 +50,7 @@
             <li class="nav-link ">
               <a class="text-dark" href="#">Culture</a>
             </li>
-            <li class="nav-link ">
+            <li class="nav-link boder-right border-muted">
               <a class="text-dark" href="#">Newsgeek</a>
             </li>
             <li class="nav-link ">
@@ -72,11 +73,11 @@
           <div class="btn-group">
             <div class="btn-group dropleft" role="group">
               <button class="btn sm text-muted pr-0" type="buttom"><small>Search</small></button>
-              <button type="button" class="btn btn sm text-muted dropdown dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <button type="buttom" class="btn text-muted dropdown-toggle-split" data-toggle="dropdown">
                 <span><small><i class="fa fa-search" aria-hidden="true"></i></small></span>
                 <div class="dropdown-menu">
-                  <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control" type="search">
+                  <form class="form-inline m-0">
+                  <input class="form-control border-0" type="search">
                   </form>
                 </div>
               </div>  
@@ -93,18 +94,18 @@
 
       <!-- top sections -->
 
-      <div id="top-container" class="container-xl-fluid mx-auto row">
+      <div id="top-container" class="container-lg-fluid mx-auto row mb-3">
        
         <!-- top left sections -->
        
-        <div class="col-md-6 col-lg">
+        <div class="col-md-6 col-lg stiky-top">
           <section id="featured">
             <h6 class="text-ligt">FEATURED STORIES</h6>
 
             <div>
               <div>
                 <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
-                <button class="stiki-bottom border-0 d-inline bg-light text-primary">U.S.</button>
+                <button class="border-0 d-inline bg-light text-primary">U.S.</button>
               </div>
               <h3>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h3>
               <p>As China begins to relax some of its coronavirus-related restrictions, a senior World Health Organization official said the risk has not gone away.</p>
@@ -113,7 +114,7 @@
             <div>
               <div>
                 <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
-                <button class="stiki-bottom border-0 d-inline bg-light text-primary">U.S.</button>
+                <button class=" border-0 d-inline bg-light text-primary">U.S.</button>
               </div>
               <h3>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h3>
               <p>As China begins to relax some of its coronavirus-related restrictions, a senior World Health Organization official said the risk has not gone away.</p>
@@ -122,7 +123,7 @@
             <div>
               <div>
                 <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
-                <button class="stiki-bottom border-0 d-inline bg-light text-primary">U.S.</button>
+                <button class=" border-0 d-inline bg-light text-primary">U.S.</button>
               </div>
               <h3>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h3>
               <p>As China begins to relax some of its coronavirus-related restrictions, a senior World Health Organization official said the risk has not gone away.</p>
@@ -131,98 +132,128 @@
             <div>
               <div>
                 <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
-                <button class="stiki-bottom border-0 d-inline bg-light text-primary">U.S.</button>
+                <button class=" border-0 d-inline bg-light text-primary">U.S.</button>
               </div>
               <h3>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h3>
               <p>As China begins to relax some of its coronavirus-related restrictions, a senior World Health Organization official said the risk has not gone away.</p>
             </div>
           
           </section>          
+
+          <section class="insights">
+            <div class="card mx-0 p-0">
+              <img class="w-100 mb-n4 " src="./images/sponsored/american-university-sharjah-v2.webp" alt="">
+              <button class=" border-0 d-inline-flex w-50 bg-light text-secondary">SPONSORED INSIGHTS</button>
+              <h3>How Can a Good Business Education Benefit You?</h3>
+              <p>Enrolling at a good Business School might be the best investment you can make in your future, and while costs can be significant, the rewards are incalculable. Find out more.</p>
+            </div>
+          </section>
+
+          <section class="insights">
+            <div class="card mx-0 p-0">
+              <img class="w-100 mb-n4 " src="./images/sponsored/american-university-sharjah-v2.webp" alt="">
+              <button class=" border-0 d-inline-flex w-50 bg-light text-secondary">SPONSORED INSIGHTS</button>
+              <h3>How Can a Good Business Education Benefit You?</h3>
+              <p>Enrolling at a good Business School might be the best investment you can make in your future, and while costs can be significant, the rewards are incalculable. Find out more.</p>
+            </div>
+          </section>
+
+          <section class="insights">
+            <div class="card mx-0 p-0">
+              <img class="w-100 mb-n4 " src="./images/sponsored/american-university-sharjah-v2.webp" alt="">
+              <button class=" border-0 d-inline-flex w-50 bg-light text-secondary">SPONSORED INSIGHTS</button>
+              <h3>How Can a Good Business Education Benefit You?</h3>
+              <p>Enrolling at a good Business School might be the best investment you can make in your future, and while costs can be significant, the rewards are incalculable. Find out more.</p>
+            </div>
+          </section>
+
         </div>
 
         <!-- top center sections -->
 
         <div class="col-md-6 col-lg-5">
+          <div class="sticky-top">
 
-          <section id="TopStory">
-            <h6 class="text-ligt">TOP STORY</h6>
-         
-            <div>
-              <img class="w-100 mb-n4 " src="./images/top/coronavirus-pandemic-covid-19-china-who.webp" alt="">
-              <button class="stiki-bottom border-0 d-inline bg-light text-primary">NEWS</button>
-              <h1>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h1>
-              <p>As China begins to relax some of its coronavirus-related restrictions, a senior World Health Organization official said the risk has not gone away.</p>
-            </div>
-          </section>
+            <section id="TopStory">
+              <h6 class="text-ligt">TOP STORY</h6>
           
-          <section id="travel" class="mb-3">
-            <h6 class="text-ligt">CULTURE & TRAVEL</h6>
-            <div class="container-fluid row mx-0">
+              <div>
+                <img class="w-100 mb-n4 " src="./images/top/coronavirus-pandemic-covid-19-china-who.webp" alt="">
+                <button class=" border-0 d-inline bg-light text-primary">NEWS</button>
+                <h2>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h2>
+                <p>As China begins to relax some of its coronavirus-related restrictions, a senior World Health Organization official said the risk has not gone away.</p>
+              </div>
+            </section>
             
-              <div class="col-sm-12 col-md-4 mx-0 pl-0">
-                <img class="w-100 mb-n4 " src="./images/culture/locked-down-italy-playing-music.webp" alt="">
-                <button class="stiki-bottom border-0 d-inline bg-light text-primary">TRAVEL</button>
-                <h5>I'm Locked Down in Italy Playing Music—But I'm More Worried About America</h5>
-                <p>Two American musicians play a nightly concert on their balcony while quarantined in their newly adopted home in Italy. It's a gift for their neighbors, but they also have a strong message for Americans, too.</p>
+            <section id="travel" class="mb-3">
+              <h6 class="text-ligt">CULTURE & TRAVEL</h6>
+              <div class="container-fluid row mx-0">
+              
+                <div class="col-sm-12 col-md-4 mx-0 pl-0">
+                  <img class="w-100 mb-n4 " src="./images/culture/locked-down-italy-playing-music.webp" alt="">
+                  <button class=" border-0 d-inline bg-light text-secondary">TRAVEL</button>
+                  <h5>I'm Locked Down in Italy Playing Music—But I'm More Worried About America</h5>
+                  <p>Two American musicians play a nightly concert on their balcony while quarantined in their newly adopted home in Italy. It's a gift for their neighbors, but they also have a strong message for Americans, too.</p>
+                </div>
+
+                <div class="col-sm-12 col-md-4 mx-0 pl-0">
+                  <img class="w-100 mb-n4 " src="./images/culture/locked-down-italy-playing-music.webp" alt="">
+                  <button class=" border-0 d-inline bg-light text-secondary">TRAVEL</button>
+                  <h5>I'm Locked Down in Italy Playing Music—But I'm More Worried About America</h5>
+                  <p>Two American musicians play a nightly concert on their balcony while quarantined in their newly adopted home in Italy. It's a gift for their neighbors, but they also have a strong message for Americans, too.</p>
+                </div>
+
+                <div class="col-sm-12 col-md-4 mx-0 pl-0">
+                  <img class="w-100 mb-n4 " src="./images/culture/locked-down-italy-playing-music.webp" alt="">
+                  <button class=" border-0 d-inline bg-light text-secondary">TRAVEL</button>
+                  <h5>I'm Locked Down in Italy Playing Music—But I'm More Worried About America</h5>
+                  <p>Two American musicians play a nightly concert on their balcony while quarantined in their newly adopted home in Italy. It's a gift for their neighbors, but they also have a strong message for Americans, too.</p>
+                </div>
+
               </div>
+            </section>
 
-              <div class="col-sm-12 col-md-4 mx-0 pl-0">
-                <img class="w-100 mb-n4 " src="./images/culture/locked-down-italy-playing-music.webp" alt="">
-                <button class="stiki-bottom border-0 d-inline bg-light text-primary">TRAVEL</button>
-                <h5>I'm Locked Down in Italy Playing Music—But I'm More Worried About America</h5>
-                <p>Two American musicians play a nightly concert on their balcony while quarantined in their newly adopted home in Italy. It's a gift for their neighbors, but they also have a strong message for Americans, too.</p>
-              </div>
+            <section id="more stories" class="mr-1 mb-2">
+              <h6 class="text-ligt">MORE STORIES</h6>
 
-              <div class="col-sm-12 col-md-4 mx-0 pl-0">
-                <img class="w-100 mb-n4 " src="./images/culture/locked-down-italy-playing-music.webp" alt="">
-                <button class="stiki-bottom border-0 d-inline bg-light text-primary">TRAVEL</button>
-                <h5>I'm Locked Down in Italy Playing Music—But I'm More Worried About America</h5>
-                <p>Two American musicians play a nightly concert on their balcony while quarantined in their newly adopted home in Italy. It's a gift for their neighbors, but they also have a strong message for Americans, too.</p>
-              </div>
+              <hr class="border-top border-muted">
+              <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="">
+              <h4>31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
+              <p>Other states, including Alabama and Georgia, have only issued the stay at home orders in major cities.</p>
 
-            </div>
-          </section>
+              <hr class="border-top border-muted">
+              <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="">
+              <h4>31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
+              <p>Other states, including Alabama and Georgia, have only issued the stay at home orders in major cities.</p>
 
-          <section id="more stories" class="mr-1 mb-2">
-            <h6 class="text-ligt">MORE STORIES</h6>
+              <hr class="border-top border-muted">
+              <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="">
+              <h4>31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
+              <p>Other states, including Alabama and Georgia, have only issued the stay at home orders in major cities.</p>
 
-            <hr class="border-top border-muted">
-            <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="">
-            <h4>31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
-            <p>Other states, including Alabama and Georgia, have only issued the stay at home orders in major cities.</p>
+              <hr class="border-top border-muted">
+              <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="">
+              <h4>31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
+              <p>Other states, including Alabama and Georgia, have only issued the stay at home orders in major cities.</p>
 
-            <hr class="border-top border-muted">
-            <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="">
-            <h4>31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
-            <p>Other states, including Alabama and Georgia, have only issued the stay at home orders in major cities.</p>
+              <hr class="border-top border-muted">
+              <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="">
+              <h4>31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
+              <p>Other states, including Alabama and Georgia, have only issued the stay at home orders in major cities.</p>
 
-            <hr class="border-top border-muted">
-            <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="">
-            <h4>31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
-            <p>Other states, including Alabama and Georgia, have only issued the stay at home orders in major cities.</p>
-
-            <hr class="border-top border-muted">
-            <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="">
-            <h4>31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
-            <p>Other states, including Alabama and Georgia, have only issued the stay at home orders in major cities.</p>
-
-            <hr class="border-top border-muted">
-            <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="">
-            <h4>31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
-            <p>Other states, including Alabama and Georgia, have only issued the stay at home orders in major cities.</p>
-
-            <hr class="border-top border-muted">
-            <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="">
-            <h4>31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
-            <p>Other states, including Alabama and Georgia, have only issued the stay at home orders in major cities.</p>
-            
+              <hr class="border-top border-muted">
+              <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="">
+              <h4>31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
+              <p>Other states, including Alabama and Georgia, have only issued the stay at home orders in major cities.</p>
+              
 
 
-          </section>
-
+            </section>
+          </div>
         </div>
 
         <!-- top right sectons -->
+
         <div class="col-md-12 col-lg p-0">
           <h6 class="text-ligt">OPINION</h6>
 
@@ -260,7 +291,7 @@
               <small class="text-dark text-uppercase">By Doug Gordon</small>
             </div>
           </div>
-`
+
           <section id="debate" class="mb-3">
             <h6 class="text-ligt">THE DEBATE</h6>
 
@@ -289,27 +320,214 @@
               <small class="text-dark text-uppercase">By <strong> Aimee Allison</strong></small>
           </section>
 
+          <section id=latest class="mb-5">
+            <h6 class="text-ligt">LATEST NEWS</h6>
+            
+            <hr class="border-top border-muted">
+            <div class="container-fluid row">
+              <img class="col-4 w-100 h-100 p-0 m-0" src="./images/more/piazza-dellesquilino-italy-rome.webp" alt="">
+              <h4 class="col m-0 pr-0">State-by-State Coronavirus Projections Show How COVID-19 Could Impact U.S.</h4>
+            </div>
+          
+            <hr class="border-top border-muted">
+            <div class="container-fluid row">
+              <img class="col-4 w-100 h-100 p-0 m-0" src="./images/more/piazza-dellesquilino-italy-rome.webp" alt="">
+              <h4 class="col m-0 pr-0">State-by-State Coronavirus Projections Show How COVID-19 Could Impact U.S.</h4>
+            </div>
+          
+            <hr class="border-top border-muted">
+            <div class="container-fluid row">
+              <img class="col-4 w-100 h-100 p-0 m-0" src="./images/more/piazza-dellesquilino-italy-rome.webp" alt="">
+              <h4 class="col m-0 pr-0">State-by-State Coronavirus Projections Show How COVID-19 Could Impact U.S.</h4>
+            </div>
+          
+            <hr class="border-top border-muted">
+            <div class="container-fluid row">
+              <img class="col-4 w-100 h-100 p-0 m-0" src="./images/more/piazza-dellesquilino-italy-rome.webp" alt="">
+              <h4 class="col m-0 pr-0">State-by-State Coronavirus Projections Show How COVID-19 Could Impact U.S.</h4>
+            </div>
+          
+            <hr class="border-top border-muted">
+            <div class="container-fluid row">
+              <img class="col-4 w-100 h-100 p-0 m-0" src="./images/more/piazza-dellesquilino-italy-rome.webp" alt="">
+              <h4 class="col m-0 pr-0">State-by-State Coronavirus Projections Show How COVID-19 Could Impact U.S.</h4>
+            </div>
+
+
+
+          </section>
+
+
           <section class="insights">
             <div class="card mx-0 p-0">
               <img class="w-100 mb-n4 " src="./images/sponsored/american-university-sharjah-v2.webp" alt="">
-              <button class="stiki-bottom border-0 d-inline-flex w-50 bg-light text-secondary">SPONSORED INSIGHTS</button>
+              <button class=" border-0 d-inline-flex w-50 bg-light text-secondary">SPONSORED INSIGHTS</button>
               <h3>How Can a Good Business Education Benefit You?</h3>
               <p>Enrolling at a good Business School might be the best investment you can make in your future, and while costs can be significant, the rewards are incalculable. Find out more.</p>
             </div>
-            
+          </section>
+          
+          <section class="insights">
+            <div class="card mx-0 p-0">
+              <img class="w-100 mb-n4 " src="./images/sponsored/american-university-sharjah-v2.webp" alt="">
+              <button class=" border-0 d-inline-flex w-50 bg-light text-secondary">SPONSORED INSIGHTS</button>
+              <h3>How Can a Good Business Education Benefit You?</h3>
+              <p>Enrolling at a good Business School might be the best investment you can make in your future, and while costs can be significant, the rewards are incalculable. Find out more.</p>
             </div>
           </section>
           
+          <section class="insights">
+            <div class="card mx-0 p-0">
+              <img class="w-100 mb-n4 " src="./images/sponsored/american-university-sharjah-v2.webp" alt="">
+              <button class=" border-0 d-inline-flex w-50 bg-light text-secondary">SPONSORED INSIGHTS</button>
+              <h3>How Can a Good Business Education Benefit You?</h3>
+              <p>Enrolling at a good Business School might be the best investment you can make in your future, and while costs can be significant, the rewards are incalculable. Find out more.</p>
+            </div>
+          </section>
 
 
 
           
 
+
         </div>
       </div>
-      <div id="magazine"></div>
-      <div id="editors-pics"></div>
-      <div id="slideshow"></div>
+
+      <!-- bottom sections -->
+      
+      <div id="magazine">
+        <h2 class="text-center mb-0"><strong class="bg-primary text-white pl-2 text-center mr-2"> N </strong>IN MAGAZINE</h2>
+        <hr>
+        <section class="container-fluid row mx-auto">
+
+          <div class="col-md-3">
+            <img class="img-fluid mb-n4" src="./images/inmagazine/april-03-2020-cover.webp" alt="">
+            <button class=" border-0 d-inline-flex w-50c  bg-light text-primary text-uppercase">April 4 Issue</button>
+            <h3 class="bg-light">SEE ALL FATURES <i class="fa fa-angle-right" aria-hidden="true"></i></h3>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid h-50 mb-2" src="./images/inmagazine/per-president-01.webp" alt="">
+            <p><span class="btn btn-primary btn-sm">COVER</span><a class="btn bth-white btn-sm text-primary" href="#">NEWS</a></p>
+            <h4>Trump Campaign Shelves 2020 Ad Blitz Touting Economy Because of Coronavirus</h4>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid h-50 mb-2" src="./images/inmagazine/closed-restaurant-california-coronavirus.webp" alt="">
+            <p><span class="btn btn-primary btn-sm">COVER</span><a class="btn bth-white btn-sm text-primary" href="#">NEWS</a></p>
+            <h4>Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care</h4>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid h-50 mb-2" src="./images/inmagazine/cul-uncharted-coffee-banner.webp" alt="">
+            <p><span class="btn btn-primary btn-sm">DOWNTIME</span><a class="btn bth-white btn-sm text-primary" href="#">CULTURE</a></p>
+            <h4>Marvel at These 10 Freaks of Nature</h4>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid h-50 mb-2" src="./images/inmagazine/per-president-01.webp" alt="">
+            <p><span class="btn btn-primary btn-sm">COVER</span><a class="btn bth-white btn-sm text-primary" href="#">NEWS</a></p>
+            <h4>Trump Campaign Shelves 2020 Ad Blitz Touting Economy Because of Coronavirus</h4>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid h-50 mb-2" src="./images/inmagazine/closed-restaurant-california-coronavirus.webp" alt="">
+            <p><span class="btn btn-primary btn-sm">COVER</span><a class="btn bth-white btn-sm text-primary" href="#">NEWS</a></p>
+            <h4>Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care</h4>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid h-50 mb-2" src="./images/inmagazine/cul-uncharted-coffee-banner.webp" alt="">
+            <p><span class="btn btn-primary btn-sm">DOWNTIME</span><a class="btn bth-white btn-sm text-primary" href="#">CULTURE</a></p>
+            <h4>Marvel at These 10 Freaks of Nature</h4>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid h-50 mb-2" src="./images/inmagazine/per-president-01.webp" alt="">
+            <p><span class="btn btn-primary btn-sm">COVER</span><a class="btn bth-white btn-sm text-primary" href="#">NEWS</a></p>
+            <h4>Trump Campaign Shelves 2020 Ad Blitz Touting Economy Because of Coronavirus</h4>
+          </div>
+
+        </section>
+      </div>
+
+      <div id="editors-pics">
+        <h2 class="text-center mb-0"><strong class="bg-primary text-white pl-2 text-center mr-2"> N </strong>EDITOR'S PICK</h2>
+        <hr>
+        <section class="container-fluid row mx-auto">
+
+          <div class="col-md-6 col-lg-3">
+            <div>
+              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
+              <button class="border-0 d-inline bg-light text-primary">U.S.</button>
+            </div>
+            <h4>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h4>
+            <p>As China begins to relax some of its coronavirus-related restrictions, a senior World Health Organization official said the risk has not gone away.</p>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div>
+              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
+              <button class="border-0 d-inline bg-light text-primary">U.S.</button>
+            </div>
+            <h4>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h4>
+            <p>As China begins to relax some of its coronavirus-related restrictions, a senior World Health Organization official said the risk has not gone away.</p>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div>
+              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
+              <button class="border-0 d-inline bg-light text-primary">U.S.</button>
+            </div>
+            <h4>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h4>
+            <p>As China begins to relax some of its coronavirus-related restrictions, a senior World Health Organization official said the risk has not gone away.</p>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div>
+              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
+              <button class="border-0 d-inline bg-light text-primary">U.S.</button>
+            </div>
+            <h4>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h4>
+            <p>As China begins to relax some of its coronavirus-related restrictions, a senior World Health Organization official said the risk has not gone away.</p>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div>
+              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
+              <button class="border-0 d-inline bg-light text-primary">U.S.</button>
+            </div>
+            <h4>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h4>
+            <p>As China begins to relax some of its coronavirus-related restrictions, a senior World Health Organization official said the risk has not gone away.</p>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div>
+              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
+              <button class="border-0 d-inline bg-light text-primary">U.S.</button>
+            </div>
+            <h4>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h4>
+            <p>As China begins to relax some of its coronavirus-related restrictions, a senior World Health Organization official said the risk has not gone away.</p>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div>
+              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
+              <button class="border-0 d-inline bg-light text-primary">U.S.</button>
+            </div>
+            <h4>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h4>
+            <p>As China begins to relax some of its coronavirus-related restrictions, a senior World Health Organization official said the risk has not gone away.</p>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div>
+              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
+              <button class="border-0 d-inline bg-light text-primary">U.S.</button>
+            </div>
+            <h4>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h4>
+            <p>As China begins to relax some of its coronavirus-related restrictions, a senior World Health Organization official said the risk has not gone away.</p>
+          </div>
+
+
+
+        </section>
+      </div>
+
+      <div id="slideshow">
+        <h2 class="text-center mb-0"><span><strong class="bg-primary text-white pl-2 text-center mr-2"> N </strong></span>SLIDE-SHOWS</h2>
+        <hr>
+        <section class="container-fluid row mx-auto">
+          <a href="#"><img src="./images/slides/eyjafjallajokull-iceland.webp" alt=""></a>
+        </section>
+
+      </div>
+
       <div id="magazine-sections"></div>
       <div id="bottom-container"></div>
     </main>
