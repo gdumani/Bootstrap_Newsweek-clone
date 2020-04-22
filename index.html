@@ -8,20 +8,22 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/custom-bootstrap.css">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Newsweek clone</title>
   </head>
   <body class="bg-light">
   
     <header> 
-
-      <div class="container-fluid container-xl mx-auto row pt-3 bg-primary text-white">
+<!-- Large viewport header -->
+      <div class="d-none d-lg-flex container-xl mx-auto row pt-3 bg-primary text-white">
         <div class="col-4 align-self-start">
           <p><small><i class="fa fa-cloud" aria-hidden="true"></i> 30&deg; Alajuela,CR <i class="fa fa-chevron-right" aria-hidden="true"></i></small></p>
           <p><small>Tue, Mar 31, 2020</small></p>
         </div>
         <div class= "col-4">
-          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="fill:white" xml:space="preserve"><g>
+          <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="fill:white" xml:space="preserve"><g>
             <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
             </g></svg>
         </div>
@@ -29,88 +31,95 @@
           <p><a class="text-white px-2" href="#">SIGN IN</a><span class="bg-white text-primary p-1">SUBSCRIBE <i class="fa fa-chevron-right" aria-hidden="true"></i></span></p>
         </div>
       </div>
-      <div class="container-fluid container-xl p">
-        <div class="float-right col-3 col-md-1 my-lg-n2 mr-lg-n2">
-           <svg height="13" width="78"><polygon points="0,0 78,0 78,13 13,13" style="fill:#F72210"/></svg>
-        </div>
-      </div>
-      <div class="container-fluid container-xl mx-auto bg-white p-0">  
+<!-- collapsible navbar-header -->
+      <div class="container-fluid container-xl bg-white p-0">
+
+        <nav id="header-button" class="navbar navbar-expand-lg bg-white navbar-dark pr-0 pt-0">
+          <button class="container-fluid navbar-toggler bg-primary fixed-top" type="button" data-toggle="collapse" data-target="#navbarToggler">
+            <a class="navbar-brand " href="#!"> 
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="160" height="24" viewBox="0 0 395.6 60" style="fill:white" xml:space="preserve"><g>
+                <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
+                </g></svg>    
+            </a>
+            <span><a class="text-white px-2" href="#">SIGN IN</a></span><span class="bg-white text-primary p-1">SUBSCRIBE <i class="fa fa-chevron-right"></i></span>
+              <span class="navbar-toggler-icon pr-1">
+              </span>
+            </button>
+
+          <div class="collapse navbar-collapse" id="navbarToggler">
         
-        <nav id="header-bottom" class="navbar navbar-expand-lg p-0">
-        
-          <ul class="navbar-nav p-3">
-            <li class="nav-item active p-0 my-1 mx-1 border-right border-dark">
-              <a class="nav-link text-body" href="#">U.S.</a>
-            </li>
-            <li class="nav-item active p-0 my-1 mx-1 border-right border-dark">
-              <a class="nav-link text-body" href="#">World</a>
-            </li>
-            <li class="nav-item active p-0 my-1 mx-1 border-right border-dark">
-              <a class="nav-link text-body" href="#">Business</a>
-            </li>
-            <li class="nav-item active p-0 my-1 mx-1 border-right border-dark">
-              <a class="nav-link text-body" href="#">Tech &amp; Science</a>
-            </li>
-            <li class="nav-item active p-0 my-1 mx-1 border-right border-dark">
-              <a class="nav-link text-body" href="#">Culture</a>
-            </li>
-            <li class="nav-item active p-0 my-1 mx-1 border-right border-dark">
-              <a class="nav-link text-body" href="#">Newsgeek</a>
-            </li>
-            <li class="nav-item active p-0 my-1 mx-1 border-right border-dark">
-              <a class="nav-link text-body" href="#">Sports</a>
-            </li>
-            <li class="nav-item active p-0 my-1 mx-1 border-right border-dark">
-              <a class="nav-link text-body" href="#">Health</a>
-            </li>
-            <li class="nav-item active p-0 my-1 mx-1 border-right border-dark">
-              <a class="nav-link text-body" href="#">The Debate</a>
-            </li>
-            <li class="nav-item active p-0 my-1 mx-1 border-right border-dark">
-              <a class="nav-link text-body" href="#">Vantage</a>
-            </li>
-            <li class="nav-item active p-0 my-1 mx-1">
-              <a class="nav-link text-body" href="#">Weather</a>
-            </li>
-          </ul>
-        </nav>
- 
-          <div class="btn-group">
-            <div class="btn-group dropleft" role="group">
-              <button class="btn sm text-muted pr-0" type="buttom"><small>Search</small></button>
-              <button type="button" class="btn text-muted dropdown-toggle-split" data-toggle="dropdown">
-                <span><small><i class="fa fa-search" aria-hidden="true"></i></small></span>
-                <div class="dropdown-menu">
-                  <form class="form-inline m-0">
-                  <input class="form-control border-0" type="search">
+           <ul class="navbar-nav float-right"> 
+              <li class="nav-item  p-0 my-1 mx-1 border-right border-light">
+                <a class="nav-link text-body" href="#!">U.S.</a>
+              </li>
+              <li class="nav-item  p-0 my-1 mx-1 border-right border-light">
+                <a class="nav-link text-body" href="#!">World</a>
+              </li>
+              <li class="nav-item  p-0 my-1 mx-1 border-right border-light">
+                <a class="nav-link text-body" href="#!">Business</a>
+              </li>
+              <li class="nav-item  p-0 my-1 mx-1 border-right border-light">
+                <a class="nav-link text-body" href="#">Tech &amp; Science</a>
+              </li>
+              <li class="nav-item  p-0 my-1 mx-1 border-right border-light">
+                <a class="nav-link text-body" href="#">Culture</a>
+              </li>
+              <li class="nav-item  p-0 my-1 mx-1 border-right border-light">
+                <a class="nav-link text-body" href="#">Newsgeek</a>
+              </li>
+              <li class="nav-item  p-0 my-1 mx-1 border-right border-light">
+                <a class="nav-link text-body" href="#">Sports</a>
+              </li>
+              <li class="nav-item  p-0 my-1 mx-1 border-right border-light">
+                <a class="nav-link text-body" href="#">Health</a>
+              </li>
+              <li class="nav-item  p-0 my-1 mx-1 border-right border-light">
+                <a class="nav-link text-body" href="#">The Debate</a>
+              </li>
+              <li class="nav-item  p-0 my-1 mx-1 border-right border-light">
+                <a class="nav-link text-body" href="#">Vantage</a>
+              </li>
+              <li class="nav-item  p-0 my-1 mx-1">
+                <a class="nav-link text-body" href="#">Weather</a>
+              </li>
+            </ul>
+
+            <div class="nav-item dropleft">
+              <button type="button" class="btn text-muted dropdown-toggle-split pr-0" data-toggle="dropdown">
+                <span class="pr-3">
+                  <small class="pr-3">Search</small><i class="fa fa-search"></i>
+                </span>
+                <div class="p-0 dropdown-menu">
+                  <form>
+                    <input class="form-control" type="text" id="search" name="search" placeholder="search">
                   </form>
                 </div>
               </button>
             </div>
           </div>
-        
 
+          <svg class="mb-5" height="13" width="78"><polygon points="0,0 78,0 78,13 13,13" style="fill:#F72210"/></svg>
 
-
-          <hr>
-        </div>
+        </nav>
+        <hr class="mb-0">
+      </div>
   
     </header>
     <main>
 
       <!-- top sections -->
 
-      <div id="top-container" class="container-fluid container-xl bg-white mx-auto row mb-3">
+      <div id="top-container" class="pt-4 container-fluid container-xl bg-white mx-auto row">
        
         <!-- top left sections -->
        
-        <div class="col-md-6 col-lg sticky-top-lg">
+        <div class="col-md-6 col-lg">
           <section id="featured">
             <h6 class="text-ligt">FEATURED STORIES</h6>
 
             <div>
               <div>
-                <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
+                <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="picture name">
                 <button class="border-0 d-inline bg-light text-primary">U.S.</button>
               </div>
               <h3>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h3>
@@ -119,7 +128,7 @@
 
             <div>
               <div>
-                <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
+                <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="picture name">
                 <button class=" border-0 d-inline bg-light text-primary">U.S.</button>
               </div>
               <h3>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h3>
@@ -128,7 +137,7 @@
 
             <div>
               <div>
-                <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
+                <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="picture name">
                 <button class=" border-0 d-inline bg-light text-primary">U.S.</button>
               </div>
               <h3>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h3>
@@ -137,7 +146,7 @@
 
             <div>
               <div>
-                <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
+                <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="picture name">
                 <button class=" border-0 d-inline bg-light text-primary">U.S.</button>
               </div>
               <h3>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h3>
@@ -148,7 +157,7 @@
 
           <section class="insights">
             <div class="card mx-0 p-0">
-              <img class="w-100 mb-n4 " src="./images/sponsored/american-university-sharjah-v2.webp" alt="">
+              <img class="w-100 mb-n4 " src="./images/sponsored/american-university-sharjah-v2.webp" alt="picture name">
               <button class=" border-0 d-inline-flex w-50 bg-light px-0 text-secondary">SPONSORED INSIGHTS</button>
               <h3>How Can a Good Business Education Benefit You?</h3>
               <p>Enrolling at a good Business School might be the best investment you can make in your future, and while costs can be significant, the rewards are incalculable. Find out more.</p>
@@ -157,7 +166,7 @@
 
           <section class="insights">
             <div class="card mx-0 p-0">
-              <img class="w-100 mb-n4 " src="./images/sponsored/american-university-sharjah-v2.webp" alt="">
+              <img class="w-100 mb-n4 " src="./images/sponsored/american-university-sharjah-v2.webp" alt="picture name">
               <button class=" border-0 d-inline-flex w-50 bg-light px-0 text-secondary">SPONSORED INSIGHTS</button>
               <h3>How Can a Good Business Education Benefit You?</h3>
               <p>Enrolling at a good Business School might be the best investment you can make in your future, and while costs can be significant, the rewards are incalculable. Find out more.</p>
@@ -166,7 +175,7 @@
 
           <section class="insights">
             <div class="card mx-0 p-0">
-              <img class="w-100 mb-n4 " src="./images/sponsored/american-university-sharjah-v2.webp" alt="">
+              <img class="w-100 mb-n4 " src="./images/sponsored/american-university-sharjah-v2.webp" alt="picture name">
               <button class=" border-0 d-inline-flex w-50 bg-light px-0 text-secondary">SPONSORED INSIGHTS</button>
               <h3>How Can a Good Business Education Benefit You?</h3>
               <p>Enrolling at a good Business School might be the best investment you can make in your future, and while costs can be significant, the rewards are incalculable. Find out more.</p>
@@ -177,40 +186,68 @@
 
         <!-- top center sections -->
 
-        <div class="col-md-6 col-lg-5 sticky-top-lg">
-          <div>
+        <div class="col-md-6 col-lg-5 sticky-top">
+          <!-- <div> -->
 
             <section id="TopStory">
               <h6 class="text-ligt">TOP STORY</h6>
           
               <div>
-                <img class="w-100 mb-n4 " src="./images/top/coronavirus-pandemic-covid-19-china-who.webp" alt="">
+                <img class="w-100 mb-n4 " src="./images/top/coronavirus-pandemic-covid-19-china-who.webp" alt="picture name">
                 <button class=" border-0 d-inline bg-light text-primary">NEWS</button>
                 <h2>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h2>
                 <p>As China begins to relax some of its coronavirus-related restrictions, a senior World Health Organization official said the risk has not gone away.</p>
               </div>
             </section>
             
+            <!-- <section id="heroes" class="mb-3">
+              <h6 class="text-ligt">CULTURE & TRAVEL</h6>
+              <div class="container-fluid row mx-0">
+              
+                <div class="col-md-4 mx-0 pl-0">
+                  <img class="w-100 mb-n4 " src="./images/culture/locked-down-italy-playing-music.webp" alt="picture name">
+                  <button class=" border-0 d-inline bg-light text-secondary">TRAVEL</button>
+                  <h5>I'm Locked Down in Italy Playing Music—But I'm More Worried About America</h5>
+                  <p>Two American musicians play a nightly concert on their balcony while quarantined in their newly adopted home in Italy. It's a gift for their neighbors, but they also have a strong message for Americans, too.</p>
+                </div>
+
+                <div class="col-md-4 mx-0 pl-0">
+                  <img class="w-100 mb-n4 " src="./images/culture/locked-down-italy-playing-music.webp" alt="picture name">
+                  <button class=" border-0 d-inline bg-light text-secondary">TRAVEL</button>
+                  <h5>I'm Locked Down in Italy Playing Music—But I'm More Worried About America</h5>
+                  <p>Two American musicians play a nightly concert on their balcony while quarantined in their newly adopted home in Italy. It's a gift for their neighbors, but they also have a strong message for Americans, too.</p>
+                </div>
+
+                <div class="col-md-4 mx-0 pl-0">
+                  <img class="w-100 mb-n4 " src="./images/culture/locked-down-italy-playing-music.webp" alt="picture name">
+                  <button class=" border-0 d-inline bg-light text-secondary">TRAVEL</button>
+                  <h5>I'm Locked Down in Italy Playing Music—But I'm More Worried About America</h5>
+                  <p>Two American musicians play a nightly concert on their balcony while quarantined in their newly adopted home in Italy. It's a gift for their neighbors, but they also have a strong message for Americans, too.</p>
+                </div>
+
+              </div>
+            </section> -->
+
             <section id="travel" class="mb-3">
               <h6 class="text-ligt">CULTURE & TRAVEL</h6>
               <div class="container-fluid row mx-0">
               
                 <div class="col-md-4 mx-0 pl-0">
-                  <img class="w-100 mb-n4 " src="./images/culture/locked-down-italy-playing-music.webp" alt="">
+                  <img class="w-100 mb-n4 " src="./images/culture/locked-down-italy-playing-music.webp" alt="picture name">
                   <button class=" border-0 d-inline bg-light text-secondary">TRAVEL</button>
                   <h5>I'm Locked Down in Italy Playing Music—But I'm More Worried About America</h5>
                   <p>Two American musicians play a nightly concert on their balcony while quarantined in their newly adopted home in Italy. It's a gift for their neighbors, but they also have a strong message for Americans, too.</p>
                 </div>
 
                 <div class="col-md-4 mx-0 pl-0">
-                  <img class="w-100 mb-n4 " src="./images/culture/locked-down-italy-playing-music.webp" alt="">
+                  <img class="w-100 mb-n4 " src="./images/culture/locked-down-italy-playing-music.webp" alt="picture name">
                   <button class=" border-0 d-inline bg-light text-secondary">TRAVEL</button>
                   <h5>I'm Locked Down in Italy Playing Music—But I'm More Worried About America</h5>
                   <p>Two American musicians play a nightly concert on their balcony while quarantined in their newly adopted home in Italy. It's a gift for their neighbors, but they also have a strong message for Americans, too.</p>
                 </div>
 
                 <div class="col-md-4 mx-0 pl-0">
-                  <img class="w-100 mb-n4 " src="./images/culture/locked-down-italy-playing-music.webp" alt="">
+                  <img class="w-100 mb-n4 " src="./images/culture/locked-down-italy-playing-music.webp" alt="picture name">
                   <button class=" border-0 d-inline bg-light text-secondary">TRAVEL</button>
                   <h5>I'm Locked Down in Italy Playing Music—But I'm More Worried About America</h5>
                   <p>Two American musicians play a nightly concert on their balcony while quarantined in their newly adopted home in Italy. It's a gift for their neighbors, but they also have a strong message for Americans, too.</p>
@@ -219,52 +256,52 @@
               </div>
             </section>
 
-            <section id="more stories" class="mr-1 mb-2">
+            <section id="more-stories" class="mr-1 mb-2">
               <h6 class="text-ligt">MORE STORIES</h6>
 
               <hr class="border-top border-muted">
-              <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="">
+              <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="picture name">
               <h4>31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
               <p>Other states, including Alabama and Georgia, have only issued the stay at home orders in major cities.</p>
 
               <hr class="border-top border-muted">
-              <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="">
+              <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="picture name">
               <h4>31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
               <p>Other states, including Alabama and Georgia, have only issued the stay at home orders in major cities.</p>
 
               <hr class="border-top border-muted">
-              <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="">
+              <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="picture name">
               <h4>31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
               <p>Other states, including Alabama and Georgia, have only issued the stay at home orders in major cities.</p>
 
               <hr class="border-top border-muted">
-              <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="">
+              <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="picture name">
               <h4>31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
               <p>Other states, including Alabama and Georgia, have only issued the stay at home orders in major cities.</p>
 
               <hr class="border-top border-muted">
-              <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="">
+              <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="picture name">
               <h4>31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
               <p>Other states, including Alabama and Georgia, have only issued the stay at home orders in major cities.</p>
 
               <hr class="border-top border-muted">
-              <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="">
+              <img class="float-left w-20 h-auto pr-3 pb-1" src="./images/more/new-york-city-times-square.webp" alt="picture name">
               <h4>31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
               <p>Other states, including Alabama and Georgia, have only issued the stay at home orders in major cities.</p>
               
 
 
             </section>
-          </div>
+          <!-- </div> -->
         </div>
 
         <!-- top right sectons -->
 
-        <div class="col-md-12 col-lg p-0 sticky-top-lg">
+        <div class="col-md-12 col-lg p-0">
           <h6 class="text-ligt">OPINION</h6>
 
           <div class="container-fluid row mx-0">
-            <img class="col-3 w-100 h-100 bd-round p-0" src="./images/opinion/doug-gordon.webp" alt="">
+            <img class="col-3 w-100 h-100 bd-round p-0" src="./images/opinion/doug-gordon.webp" alt="picture name">
             <div class="col">
               <h4>Our Right to Vote in November Is in Real Danger—But It Can Still Be Saved</h4>
               <small class="text-dark text-uppercase">By Doug Gordon</small>
@@ -273,7 +310,7 @@
           <hr class="border-top border-muted">
 
           <div class="container-fluid row mx-0">
-            <img class="col-3 w-100 h-100 bd-round p-0" src="./images/opinion/doug-gordon.webp" alt="">
+            <img class="col-3 w-100 h-100 bd-round p-0" src="./images/opinion/doug-gordon.webp" alt="picture name">
             <div class="col">
               <h4>Our Right to Vote in November Is in Real Danger—But It Can Still Be Saved</h4>
               <small class="text-dark text-uppercase">By Doug Gordon</small>
@@ -282,7 +319,7 @@
           <hr class="border-top border-muted">
 
           <div class="container-fluid row m-0">
-            <img class="col-3 w-100 h-100 bd-round p-0" src="./images/opinion/doug-gordon.webp" alt="">
+            <img class="col-3 w-100 h-100 bd-round p-0" src="./images/opinion/doug-gordon.webp" alt="picture name">
             <div class="col">
               <h4>Our Right to Vote in November Is in Real Danger—But It Can Still Be Saved</h4>
               <small class="text-dark text-uppercase">By Doug Gordon</small>
@@ -291,7 +328,7 @@
           <hr class="border-top border-muted">
 
           <div class="container-fluid row m-0">
-            <img class="col-3 w-100 h-100 bd-round p-0" src="./images/opinion/doug-gordon.webp" alt="">
+            <img class="col-3 w-100 h-100 bd-round p-0" src="./images/opinion/doug-gordon.webp" alt="picture name">
             <div class="col-9">
               <h4>Our Right to Vote in November Is in Real Danger—But It Can Still Be Saved</h4>
               <small class="text-dark text-uppercase">By Doug Gordon</small>
@@ -303,12 +340,12 @@
 
             <div class="container-fluid row mx-0 px-0">
               <hr class="col-12 bg-primary m-0 p-1">
-              <img class="col-4 w-100 h-100 p-0" src="./images/debate/joe-biden.webp" alt="">
+              <img class="col-4 w-100 h-100 p-0" src="./images/debate/joe-biden.webp" alt="picture name">
               <h4 class="col py-1">Biden's Running Mate Needs to Win Him an Entire State, Not Just a Constituency</h4>
             </div>
             <div class="container-fluid row mx-0 px-0 mb-n4">
               <hr class="col border-top border-muted">
-              <img class="col-3 border-round" src="./images/debate/roff-new.webp" alt="">
+              <img class="col-3 border-round" src="./images/debate/roff-new.webp" alt="picture name">
             </div>
               <small class="text-dark text-uppercase">By <strong> Aimee Allison</strong></small>
 
@@ -316,12 +353,12 @@
 
               <div class="container-fluid row mx-0 px-0">
               <hr class="col-12 bg-secondary m-0 p-1">
-              <img class="col-4 w-100 h-100 p-0" src="./images/debate/joe-biden-bernie-sanders.webp" alt="">
+              <img class="col-4 w-100 h-100 p-0" src="./images/debate/joe-biden-bernie-sanders.webp" alt="picture name">
               <h4 class="col py-1">A Woman of Color VP Is More Than a Consolation Prize. It's a Necessity</h4>
             </div>
             <div class="container-fluid row mx-0 px-0 mb-n4">
               <hr class="col border-top border-muted">
-              <img class="col-3 border-round" src="./images/debate/aimee-allison.webp" alt="">
+              <img class="col-3 border-round" src="./images/debate/aimee-allison.webp" alt="picture name">
             </div>
               <small class="text-dark text-uppercase">By <strong> Aimee Allison</strong></small>
           </section>
@@ -331,31 +368,31 @@
             
             <hr class="border-top border-muted">
             <div class="container-fluid row">
-              <img class="col-4 w-100 h-100 p-0 m-0" src="./images/more/piazza-dellesquilino-italy-rome.webp" alt="">
+              <img class="col-4 w-100 h-100 p-0 m-0" src="./images/more/piazza-dellesquilino-italy-rome.webp" alt="picture name">
               <h4 class="col m-0 pr-0">State-by-State Coronavirus Projections Show How COVID-19 Could Impact U.S.</h4>
             </div>
           
             <hr class="border-top border-muted">
             <div class="container-fluid row">
-              <img class="col-4 w-100 h-100 p-0 m-0" src="./images/more/piazza-dellesquilino-italy-rome.webp" alt="">
+              <img class="col-4 w-100 h-100 p-0 m-0" src="./images/more/piazza-dellesquilino-italy-rome.webp" alt="picture name">
               <h4 class="col m-0 pr-0">State-by-State Coronavirus Projections Show How COVID-19 Could Impact U.S.</h4>
             </div>
           
             <hr class="border-top border-muted">
             <div class="container-fluid row">
-              <img class="col-4 w-100 h-100 p-0 m-0" src="./images/more/piazza-dellesquilino-italy-rome.webp" alt="">
+              <img class="col-4 w-100 h-100 p-0 m-0" src="./images/more/piazza-dellesquilino-italy-rome.webp" alt="picture name">
               <h4 class="col m-0 pr-0">State-by-State Coronavirus Projections Show How COVID-19 Could Impact U.S.</h4>
             </div>
           
             <hr class="border-top border-muted">
             <div class="container-fluid row">
-              <img class="col-4 w-100 h-100 p-0 m-0" src="./images/more/piazza-dellesquilino-italy-rome.webp" alt="">
+              <img class="col-4 w-100 h-100 p-0 m-0" src="./images/more/piazza-dellesquilino-italy-rome.webp" alt="picture name">
               <h4 class="col m-0 pr-0">State-by-State Coronavirus Projections Show How COVID-19 Could Impact U.S.</h4>
             </div>
           
             <hr class="border-top border-muted">
             <div class="container-fluid row">
-              <img class="col-4 w-100 h-100 p-0 m-0" src="./images/more/piazza-dellesquilino-italy-rome.webp" alt="">
+              <img class="col-4 w-100 h-100 p-0 m-0" src="./images/more/piazza-dellesquilino-italy-rome.webp" alt="picture name">
               <h4 class="col m-0 pr-0">State-by-State Coronavirus Projections Show How COVID-19 Could Impact U.S.</h4>
             </div>
 
@@ -366,7 +403,7 @@
 
           <section class="insights">
             <div class="card mx-0 p-0">
-              <img class="w-100 mb-n4 " src="./images/sponsored/american-university-sharjah-v2.webp" alt="">
+              <img class="w-100 mb-n4 " src="./images/sponsored/american-university-sharjah-v2.webp" alt="picture name">
               <button class=" border-0 d-inline-flex w-50 bg-light px-0 text-secondary">SPONSORED INSIGHTS</button>
               <h3>How Can a Good Business Education Benefit You?</h3>
               <p>Enrolling at a good Business School might be the best investment you can make in your future, and while costs can be significant, the rewards are incalculable. Find out more.</p>
@@ -375,7 +412,7 @@
           
           <section class="insights">
             <div class="card mx-0 p-0">
-              <img class="w-100 mb-n4 " src="./images/sponsored/american-university-sharjah-v2.webp" alt="">
+              <img class="w-100 mb-n4 " src="./images/sponsored/american-university-sharjah-v2.webp" alt="picture name">
               <button class=" border-0 d-inline-flex w-50 bg-light px-0 text-secondary">SPONSORED INSIGHTS</button>
               <h3>How Can a Good Business Education Benefit You?</h3>
               <p>Enrolling at a good Business School might be the best investment you can make in your future, and while costs can be significant, the rewards are incalculable. Find out more.</p>
@@ -384,65 +421,60 @@
           
           <section class="insights">
             <div class="card mx-0 p-0">
-              <img class="w-100 mb-n4 " src="./images/sponsored/american-university-sharjah-v2.webp" alt="">
+              <img class="w-100 mb-n4 " src="./images/sponsored/american-university-sharjah-v2.webp" alt="picture name">
               <button class=" border-0 d-inline-flex w-50 bg-light px-0 text-secondary">SPONSORED INSIGHTS</button>
               <h3>How Can a Good Business Education Benefit You?</h3>
               <p>Enrolling at a good Business School might be the best investment you can make in your future, and while costs can be significant, the rewards are incalculable. Find out more.</p>
             </div>
           </section>
-
-
-
-          
-
 
         </div>
       </div>
 
       <!-- bottom sections -->
       
-      <div id="magazine" class="container-fluid container-xl bg-white">
+      <div id="magazine" class="pt-4 container-fluid container-xl bg-white">
         <h2 class="text-center mb-0"><strong class="bg-primary text-white pl-2 text-center mr-2"> N </strong>IN MAGAZINE</h2>
         <hr>
         <section class="container-fluid row mx-auto">
 
           <div class="col-md-3">
-            <img class="img-fluid mb-n4" src="./images/inmagazine/april-03-2020-cover.webp" alt="">
+            <img class="img-fluid mb-n4" src="./images/inmagazine/april-03-2020-cover.webp" alt="picture name">
             <button class=" border-0 d-inline-flex w-50c  bg-light text-primary text-uppercase">April 4 Issue</button>
             <h3 class="bg-light">SEE ALL FATURES <i class="fa fa-angle-right" aria-hidden="true"></i></h3>
           </div>
           <div class="col-md-3">
-            <img class="img-fluid h-50 mb-2" src="./images/inmagazine/per-president-01.webp" alt="">
+            <img class="img-fluid h-50 mb-2" src="./images/inmagazine/per-president-01.webp" alt="picture name">
             <p><span class="btn btn-primary btn-sm">COVER</span><a class="btn bth-white btn-sm text-primary" href="#">NEWS</a></p>
             <h4>Trump Campaign Shelves 2020 Ad Blitz Touting Economy Because of Coronavirus</h4>
           </div>
           <div class="col-md-3">
-            <img class="img-fluid h-50 mb-2" src="./images/inmagazine/closed-restaurant-california-coronavirus.webp" alt="">
+            <img class="img-fluid h-50 mb-2" src="./images/inmagazine/closed-restaurant-california-coronavirus.webp" alt="picture name">
             <p><span class="btn btn-primary btn-sm">COVER</span><a class="btn bth-white btn-sm text-primary" href="#">NEWS</a></p>
             <h4>Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care</h4>
           </div>
           <div class="col-md-3">
-            <img class="img-fluid h-50 mb-2" src="./images/inmagazine/cul-uncharted-coffee-banner.webp" alt="">
+            <img class="img-fluid h-50 mb-2" src="./images/inmagazine/cul-uncharted-coffee-banner.webp" alt="picture name">
             <p><span class="btn btn-primary btn-sm">DOWNTIME</span><a class="btn bth-white btn-sm text-primary" href="#">CULTURE</a></p>
             <h4>Marvel at These 10 Freaks of Nature</h4>
           </div>
           <div class="col-md-3">
-            <img class="img-fluid h-50 mb-2" src="./images/inmagazine/per-president-01.webp" alt="">
+            <img class="img-fluid h-50 mb-2" src="./images/inmagazine/per-president-01.webp" alt="picture name">
             <p><span class="btn btn-primary btn-sm">COVER</span><a class="btn bth-white btn-sm text-primary" href="#">NEWS</a></p>
             <h4>Trump Campaign Shelves 2020 Ad Blitz Touting Economy Because of Coronavirus</h4>
           </div>
           <div class="col-md-3">
-            <img class="img-fluid h-50 mb-2" src="./images/inmagazine/closed-restaurant-california-coronavirus.webp" alt="">
+            <img class="img-fluid h-50 mb-2" src="./images/inmagazine/closed-restaurant-california-coronavirus.webp" alt="picture name">
             <p><span class="btn btn-primary btn-sm">COVER</span><a class="btn bth-white btn-sm text-primary" href="#">NEWS</a></p>
             <h4>Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care</h4>
           </div>
           <div class="col-md-3">
-            <img class="img-fluid h-50 mb-2" src="./images/inmagazine/cul-uncharted-coffee-banner.webp" alt="">
+            <img class="img-fluid h-50 mb-2" src="./images/inmagazine/cul-uncharted-coffee-banner.webp" alt="picture name">
             <p><span class="btn btn-primary btn-sm">DOWNTIME</span><a class="btn bth-white btn-sm text-primary" href="#">CULTURE</a></p>
             <h4>Marvel at These 10 Freaks of Nature</h4>
           </div>
           <div class="col-md-3">
-            <img class="img-fluid h-50 mb-2" src="./images/inmagazine/per-president-01.webp" alt="">
+            <img class="img-fluid h-50 mb-2" src="./images/inmagazine/per-president-01.webp" alt="picture name">
             <p><span class="btn btn-primary btn-sm">COVER</span><a class="btn bth-white btn-sm text-primary" href="#">NEWS</a></p>
             <h4>Trump Campaign Shelves 2020 Ad Blitz Touting Economy Because of Coronavirus</h4>
           </div>
@@ -457,7 +489,7 @@
 
           <div class="col-md-6 col-lg-3">
             <div>
-              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
+              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="picture name">
               <button class="border-0 d-inline bg-light text-primary">U.S.</button>
             </div>
             <h4>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h4>
@@ -466,7 +498,7 @@
 
           <div class="col-md-6 col-lg-3">
             <div>
-              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
+              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="picture name">
               <button class="border-0 d-inline bg-light text-primary">U.S.</button>
             </div>
             <h4>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h4>
@@ -475,7 +507,7 @@
 
           <div class="col-md-6 col-lg-3">
             <div>
-              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
+              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="picture name">
               <button class="border-0 d-inline bg-light text-primary">U.S.</button>
             </div>
             <h4>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h4>
@@ -484,7 +516,7 @@
 
           <div class="col-md-6 col-lg-3">
             <div>
-              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
+              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="picture name">
               <button class="border-0 d-inline bg-light text-primary">U.S.</button>
             </div>
             <h4>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h4>
@@ -493,7 +525,7 @@
 
           <div class="col-md-6 col-lg-3">
             <div>
-              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
+              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="picture name">
               <button class="border-0 d-inline bg-light text-primary">U.S.</button>
             </div>
             <h4>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h4>
@@ -502,7 +534,7 @@
 
           <div class="col-md-6 col-lg-3">
             <div>
-              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
+              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="picture name">
               <button class="border-0 d-inline bg-light text-primary">U.S.</button>
             </div>
             <h4>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h4>
@@ -511,7 +543,7 @@
 
           <div class="col-md-6 col-lg-3">
             <div>
-              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
+              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="picture name">
               <button class="border-0 d-inline bg-light text-primary">U.S.</button>
             </div>
             <h4>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h4>
@@ -520,7 +552,7 @@
 
           <div class="col-md-6 col-lg-3">
             <div>
-              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="">
+              <img class="w-100 mb-n4" src="./images/feautured/donald-trump-military-fort-drum-new-york.webp" alt="picture name">
               <button class="border-0 d-inline bg-light text-primary">U.S.</button>
             </div>
             <h4>WHO Warns Coronavirus Pandemic 'Far From Over' in Asia-Pacifc</h4>
@@ -528,16 +560,17 @@
           </div>
 
         </section>
+        <hr class="mb-0">
       </div>
 
-      <div id="slideshow" class="container-fluid container-xl bg-white">
+      <div id="slideshow" class="pt-4 container-fluid container-xl bg-white">
         <h2 class="text-center mb-0"><span><strong class="bg-primary text-white pl-2 text-center mr-2"> N </strong></span>SLIDE-SHOWS</h2>
         <hr>
         <section class="container-fluid row mx-auto mb-5">
 
           <div class="col-sm-4">
             <a href="#">
-              <img  class="w-100 mb-n5" src="./images/slides/eyjafjallajokull-iceland.webp" alt="">
+              <img  class="w-100 mb-n5" src="./images/slides/eyjafjallajokull-iceland.webp" alt="picture name">
               <button class="border-0 d-inline bg-light text-primary bold p-3">10</button>
             </a>
             <h4><a class="text-body" href="#"> Volcanoes Around the World That Could Erupt at Any Moment </a></h4>
@@ -545,7 +578,7 @@
 
           <div class="col-sm-4">
             <a href="#">
-              <img  class="w-100 mb-n5" src="./images/slides/lipschutz-living-room-hotel-chelsea.webp" alt="">
+              <img  class="w-100 mb-n5" src="./images/slides/lipschutz-living-room-hotel-chelsea.webp" alt="picture name">
               <button class="border-0 d-inline bg-light text-primary bold p-3">10</button>
             </a>
             <h4><a class="text-body" href="#"> Volcanoes Around the World That Could Erupt at Any Moment </a></h4>
@@ -553,50 +586,51 @@
 
           <div class="col-sm-4">
             <a href="#">
-              <img  class="w-100 mb-n5" src="./images/slides/tozeur-tunisia.webp" alt="">
+              <img  class="w-100 mb-n5" src="./images/slides/tozeur-tunisia.webp" alt="picture name">
               <button class="border-0 d-inline bg-light text-primary bold p-3">10</button>
             </a>
             <h4><a class="text-body" href="#"> Volcanoes Around the World That Could Erupt at Any Moment </a></h4>
           </div>
           
         </section>
+        <hr class="mb-0">
+
       </div>
 
-      <div id="magazine-sections" class="container-fluid container-xl bg-white">
-        <hr>
+      <div id="magazine-sections" class="pt-4 container-xl bg-white">
 
         <section>
-          <h1 class="text-primary ml-4">U.S.</h1>
+          <h2 class="text-primary ml-4">U.S.</h2>
           <div class="container-fluid row mx-0">
 
             <div class="col-md-4">
-              <img class="w-100 mb-2" src="./images/sections/drvie-baby-shower-balloons.webp" alt="">
+              <img class="w-100 mb-2" src="./images/sections/drvie-baby-shower-balloons.webp" alt="picture name">
               <h4>Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care</h4>
             </div>
 
             <div class="col-md-4">
-              <img class="w-100 mb-2" src="./images/sections/smartphone-apps.webp" alt="">
+              <img class="w-100 mb-2" src="./images/sections/smartphone-apps.webp" alt="picture name">
               <h4>Trump Campaign Shelves 2020 Ad Blitz Touting Economy Because of Coronavirus</h4>
             </div>
 
             <div class="col-md-4 p-0">
 
               <div class="container row m-0 p-0">
-                <img class="col-5 col-lg-3 h-100 pr-2 pl-0" src="./images/more/new-york-city-times-square.webp" alt="">
+                <img class="col-5 col-lg-3 h-100 pr-2 pl-0" src="./images/more/new-york-city-times-square.webp" alt="picture name">
                 <h4 class="col px-0">31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
               </div>
 
               <hr class="border-top border-muted">
 
               <div class="container row m-0 p-0">
-                <img class="col-5 col-lg-3 h-100 pr-2 pl-0" src="./images/more/new-york-city-times-square.webp" alt="">
+                <img class="col-5 col-lg-3 h-100 pr-2 pl-0" src="./images/more/new-york-city-times-square.webp" alt="picture name">
                 <h4 class="col px-0">31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
               </div>
 
               <hr class="border-top border-muted">
 
               <div class="container row m-0 p-0">
-                <img class="col-5 col-lg-3 h-100 pr-2 pl-0" src="./images/more/new-york-city-times-square.webp" alt="">
+                <img class="col-5 col-lg-3 h-100 pr-2 pl-0" src="./images/more/new-york-city-times-square.webp" alt="picture name">
                 <h4 class="col px-0">31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
               </div>
 
@@ -608,37 +642,37 @@
         <hr>
 
         <section>
-          <h1 class="text-primary ml-4">WORLD</h1>
+          <h2 class="text-primary ml-4">WORLD</h2>
           <div class="container-fluid row mx-0">
 
             <div class="col-md-4">
-              <img class="w-100 mb-2" src="./images/sections/drvie-baby-shower-balloons.webp" alt="">
+              <img class="w-100 mb-2" src="./images/sections/drvie-baby-shower-balloons.webp" alt="picture name">
               <h4>Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care</h4>
             </div>
 
             <div class="col-md-4">
-              <img class="w-100 mb-2" src="./images/sections/smartphone-apps.webp" alt="">
+              <img class="w-100 mb-2" src="./images/sections/smartphone-apps.webp" alt="picture name">
               <h4>Trump Campaign Shelves 2020 Ad Blitz Touting Economy Because of Coronavirus</h4>
             </div>
 
             <div class="col-md-4 p-0">
 
-              <div class="container row m-0 p-0">
-                <img class="col-5 col-lg-3 h-100 pr-2 pl-0" src="./images/more/new-york-city-times-square.webp" alt="">
+              <div class="row m-0 p-0">
+                <img class="col-5 col-lg-3 h-100 pr-2 pl-0" src="./images/more/new-york-city-times-square.webp" alt="picture name">
                 <h4 class="col px-0">31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
               </div>
 
               <hr class="border-top border-muted">
 
-              <div class="container row m-0 p-0">
-                <img class="col-5 col-lg-3 h-100 pr-2 pl-0" src="./images/more/new-york-city-times-square.webp" alt="">
+              <div class="row m-0 p-0">
+                <img class="col-5 col-lg-3 h-100 pr-2 pl-0" src="./images/more/new-york-city-times-square.webp" alt="picture name">
                 <h4 class="col px-0">31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
               </div>
 
               <hr class="border-top border-muted">
 
-              <div class="container row m-0 p-0">
-                <img class="col-5 col-lg-3 h-100 pr-2 pl-0" src="./images/more/new-york-city-times-square.webp" alt="">
+              <div class="row m-0 p-0">
+                <img class="col-5 col-lg-3 h-100 pr-2 pl-0" src="./images/more/new-york-city-times-square.webp" alt="picture name">
                 <h4 class="col px-0">31 States Now Have Stay at Home Orders Amid the Coronavirus Outbreak</h4>
               </div>
 
@@ -647,21 +681,143 @@
           </div>
         </section>
 
-        <hr>
+        <hr class="mb-0">
 
       </div>
 
-      <div id="bottom-container" class="container-fluid container-xl bg-white">
-        <section id="subscribe">
-          <h2 class="text-primary ml-4">SUBSCRIBE</h2>
+      <div id="bottom-container" class="container-fluid container-xl bg-white pt-4">
+        <div class="container-fluid row">
+          <section id="subscribe" class="col-12 col-lg">
+            <h3 class="text-primary ml-4">SUBSCRIBE</h3>
+            <div class="row p-4 bg-light m-2">
+              <img class="card-img col-sm-4 " src="./images/april-03-2020-cover.jpg" alt="picture name">
+              <div class="col my-auto">
+                <h4>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h4>
+                <p>All Access + Weekly Delivery.<br>Choose A Membership That's Perfect for You</p>
+                <a class="brn btn-primary" href="#">SUBSCRIBE <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </section>
 
-        </section>
+          <section id="newsletter" class="col-12 col-lg-5">
+            <h3 class="text-primary ml-4">NEWSLETTER</h3>
+            <div class="row border border-light">
+              <img class="card-img col-sm-5" src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png" alt="picture name">
+              <div class="col my-auto py-4">
+                <h4>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h4>
+                <p>All Access + Weekly Delivery.<br>Choose A Membership That's Perfect for You</p>
+                <a class="brn btn-primary" href="#">SUBSCRIBE <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
 
-        <section id="newsletter"></section>
+          </section>
       </div>
+      <hr class="mb-0">
+    </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="container-fluid container-xl row mx-auto bg-white">
+        <div class="col-12 col-sm mt-4">
+          <a class="pr-4" href="#">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200" height="30" viewBox="0 0 395.6 60" style="fill:#F72210" xml:space="preserve"><g>
+              <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
+            </g></svg>    
+          </a>
+          <small class="col-xm mt-4">&copy; 2020 NEWSWEEK</small>
+        </div>
 
+
+        <div class="col mt-4 lead">
+          <ul class="list-inline float-sm-right">
+            <li class="list-inline-item">
+              <a href="#"><i class="text-dark fab fa-facebook-square" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="text-dark fab fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="text-dark fab fa-instagram"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="text-dark fab fa-tumblr" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="text-dark fab fa-linkedin-in" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+        
+        <hr>
+        <div class="container-fluid container-xl mx-auto row bg-white pt-4 mt-1">
+          <p class="pr-4">Editions:</p>
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a class="text-decoration-none text-dark font-weight-light" href="#">U.S. Edition  |</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-decoration-none text-dark font-weight-light" href="#">日本  |</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-decoration-none text-dark font-weight-light" href="#">Pakistan  |</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-decoration-none text-dark font-weight-light" href="#">Polska  |</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-decoration-none text-dark font-weight-light" href="#">România</a>
+            </li>  
+          </ul>
+        </div>
+    
+        
+          <ul class="list-inline px-3">
+            <li class="list-inline-item">
+              <a class="text-decoration-none text-dark font-weight-light" href="#">About Us  |</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-decoration-none text-dark font-weight-light" href="#">Corrections  |</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-decoration-none text-dark font-weight-light" href="#">Contact Us  |</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-decoration-none text-dark font-weight-light" href="#">Editorial Guidelines  |</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-decoration-none text-dark font-weight-light" href="#">Advertise  |</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-decoration-none text-dark font-weight-light" href="#">Copyright  |</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-decoration-none text-dark font-weight-light" href="#">Terms & Conditions  |</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-decoration-none text-dark font-weight-light" href="#">Privacy Policy  |</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-decoration-none text-dark font-weight-light" href="#">Cookie Policy  |</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-decoration-none text-dark font-weight-light" href="#">Terms of Sale  |</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-decoration-none text-dark font-weight-light" href="#">Archive  |</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-decoration-none text-dark font-weight-light" href="#">Announcements  |</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-decoration-none text-dark font-weight-light" href="#">Consent preferences  |</a>
+            </li>
+          </ul> 
+        </div>
+      
+
+
+
+    </footer>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -669,4 +825,5 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
+
 </html>
