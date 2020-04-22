@@ -10,6 +10,17 @@ h6{
   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
 }
 
-.sticky-top {
-  height: 100%;
+#search {
+  width: 75vh;
+}
+
+  .sticky-top {
+    height: 100%;
+  }
+
+@media (max-width: 991.98px) { 
+  .sticky-top {
+    position: relative; 
+  }
+
 }
