@@ -7,7 +7,7 @@ linters:
     
   files:
       ignore:
-          - "./styles/custom-bootstrap.css
+          - "./styles/custom-bootstrap.css"
 
 # PLEASE DO NOT enable auto fixing options
 # if you need extra support from you linter - do it in your local env as described in README for this config
