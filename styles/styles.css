@@ -14,9 +14,9 @@ h6{
   width: 75vh;
 }
 
-  .sticky-top {
-    height: 100%;
-  }
+.sticky-top {
+  height: 100%;
+}
 
 @media (max-width: 991.98px) { 
   .sticky-top {
