@@ -6,7 +6,7 @@ h1,
 h2,
 h3,
 h4,
-h6{
+h6 {
   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
 }
 
@@ -18,9 +18,8 @@ h6{
   height: 100%;
 }
 
-@media (max-width: 991.98px) { 
+@media (max-width: 991.98px) {
   .sticky-top {
-    position: relative; 
+    position: relative;
   }
-
 }
