@@ -10,6 +10,9 @@ h6 {
   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
+h5 {
+  font-family: serif;
+}
 
 #search {
   width: 75vh;
