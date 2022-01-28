@@ -1,0 +1,30 @@
+img {
+  object-fit: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+h5 {
+  font-family: serif;
+}
+
+#search {
+  width: 75vh;
+}
+
+.sticky-top {
+  height: 100%;
+}
+
+@media (max-width: 991.98px) {
+  .sticky-top {
+    position: relative;
+  }
+}
